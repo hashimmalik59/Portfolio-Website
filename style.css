@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(Bg\ img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container, .footer {
+    margin: auto;
+}
+
+.header {
+    justify-content: space-evenly;
+    align-items: end;
+    height: 15vh;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 1%;
+}
+
+.button {
+    border: none;
+    background-color: yellow;
+    height: 10vh;
+    width: 10vw;
+    box-shadow: 0px 0px 30px yellow;
+    color: black;
+    text-shadow: 0px 0px 0px 20px #fff;
+    font-size: 1.10em;
+}
+#button1{
+    width: 10vw;
+}
+#button2 {
+    width: 8vw;
+}
+a, .text, .main-button, .footer{
+    color: #fff;
+}
+a{
+    padding: .5% .75%;
+}
+a:hover{
+    transform: scale(1.1);
+    background-color: rgba(255, 255, 0, 1);
+    color: black;
+}
+.text {
+    margin-left: 20%;
+    font-size: 1.25em;
+    margin-top: 5%;
+}
+.header, .main{
+    display: flex;
+}
+.main {
+    height: 70vh;
+    align-items: center;
+    gap: 10%;
+}
+
+.main-button {
+    border-radius: 2px;
+    background-color: transparent;
+    border: 1px solid yellow;
+    height: 7vh;
+    width: 10vw;
+    font-size: .75em;
+    box-shadow: 0px 0px 10px yellow;
+}
+.main-button:hover{
+    box-shadow: 0px 0px 20px yellow;
+}
+.photo {
+    margin-left: 20%;
+    margin-top: 3%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px yellow;
+}
+.photo, .main-button, a, .icons, .name, .skill{
+    transition: all .25s ease-in-out;
+}
+.photo:hover {
+    box-shadow: 0px 0px 100px yellow;
+}
+
+.main>h1,
+h2,
+p {
+    line-height: 50px;
+}
+.yellow{
+    color: yellow;
+    text-shadow: 0px 0px 10px yellow;
+}
+
+.icon {
+    display: block;
+    margin: 5% 0%;
+    font-size: 1.5em;
+}
+
+.icons {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.icons:hover {
+    box-shadow: 0px 0px 20px #fff;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer>p {
+    line-height: 40px;
+    font-style: italic
+}
+.container, .main, .footer{
+    width: 85vw;
+}
+.name{
+    font-size: 2em;
+    font-weight: 900;
+    font-style: italic;
+    color: yellow;
+}
+.name:hover{
+    color: yellow;
+    text-shadow: 0px 0px 5px yellow;
+    transform: scale(2);
+    color: #fff;
+}
+.skill{
+    font-size: 1.5em;
+    text-shadow: 0px 0px 10px #fff;
+}
