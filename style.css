@@ -50,13 +50,13 @@ body {
 #button2 {
     width: 8vw;
 }
-a, .text, .main-button, .footer{
+.nav-bar, .text, .main-button, .footer{
     color: #fff;
 }
-a{
+.nav-bar{
     padding: .5% .75%;
 }
-a:hover{
+.nav-bar:hover{
     transform: scale(1.1);
     background-color: rgba(255, 255, 0, 1);
     color: black;
@@ -93,7 +93,7 @@ a:hover{
     border-radius: 50%;
     box-shadow: 0px 0px 50px yellow;
 }
-.photo, .main-button, a, .icons, .name, .skill{
+.photo, .main-button, a, .icons, .name, .skill, .links{
     transition: all .25s ease-in-out;
 }
 .photo:hover {
@@ -151,4 +151,10 @@ p {
 .skill{
     font-size: 1.5em;
     text-shadow: 0px 0px 10px #fff;
+}
+.links{
+    color: white;
+}
+.links:hover{
+    box-shadow: 0px 0px 10px white;
 }
